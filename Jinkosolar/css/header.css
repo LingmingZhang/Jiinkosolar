@@ -1,0 +1,153 @@
+
+/*****页面顶部********/
+#header{
+	height:52px;
+}
+#header>ul{
+	margin-top:20px;
+	height:24px;
+	line-height:24px;
+}
+#header>ul>li{
+	float:left;
+}
+#header>ul>li b{
+	display:inline-block;
+	width:1px;
+	height:10px;
+	background:#666;
+	margin:0 5px;
+	position:relative;
+	top:2px;
+	left:0;
+}
+#header>ul li.language{
+	width:50px;
+	padding-left:33px;
+	background:url(../img/index/language-China.gif) no-repeat 0 center;
+	line-height:24px;
+	position:relative;
+}
+
+
+/*******页面导航*************/
+#nav{
+	height:39px;
+	color:#444;
+	margin-bottom:10px;
+}
+
+/**************页面主导航*****************/
+#nav-main{
+	float:left;
+}
+#nav-main>li{
+	float:left;
+}
+#nav-main>li>a{
+	display:block;
+	background:url(../img/index/gexian.gif) no-repeat right center;
+	padding:10px 15px;
+	font-weight:bold;
+	font-size:14px;
+	position:relative;
+	z-index:200;
+	color:#444;
+}
+#nav-main li.users a{
+	background:#fff;
+}
+#nav-main>li:hover>a{
+	background:#fff;
+	box-shadow:0 -1px 2px rgba(0,0,0,0.2);
+	border-bottom:none;
+	border-bottom:1px solid #fff;
+}
+#nav-main>li{
+	position:relative;
+}
+#nav-main>li div{
+	width:410px;
+	height:0;
+	box-sizing:border-box;
+	position:absolute;
+	top:40px;
+	left:0;
+	z-index:100;
+	background:#fff;
+	box-shadow:0 0 3px rgba(0,0,0,0.3);
+
+	transition:height .2s linear;
+	overflow:hidden;
+}
+#nav-main>li div ul.second{
+	margin-left:40px;
+}
+#nav-main>li div ul a{
+	display:block;
+	line-height:25px;
+	font-weight:normal;
+	font-size:12px;
+	padding:0 15px;
+}
+#nav-main>li div ul a:hover{
+	background:#f6f6f6;
+}
+#nav-main>li:hover div{
+	height:115px;
+	padding:20px 20px 0 0;
+}
+
+/**********页面导航==分享图***********/
+#share li{
+	float:left;
+}
+#share li a{
+	display:block;
+	width:29px;
+	height:24px;
+	background:url(../img/index/share.gif) no-repeat;
+	margin-top:7px;
+}
+#share li a:hover{
+	background-image:url(../img/index/share-hover.gif);
+}
+#share li.share-2 a,#share li.share-2 a:hover{
+	background-position:-29px 0;
+}
+#share li.share-3 a,#share li.share-3 a:hover{
+	background-position:-88px 0;
+}
+#share li.share-4 a,#share li.share-4 a:hover{
+	background-position:-117px 0;
+}
+#share li.share-5 a,#share li.share-5 a:hover{
+	background-position:-146px 0;
+}
+
+/**********轮播广告==绿底部分***********/
+
+#adv-slider{
+	width:100%;
+	height:40px;
+	background:#1DA63C;
+
+}
+#adv-slider #banner-text-container{
+	width:1000px;
+	margin:0 auto;
+	box-sizing:border-box;
+	overflow:hidden;
+	padding-left:100px;
+	background:url(../img/index/notice.gif) no-repeat 6px 6px;
+}
+#banner-text{
+	position:relative;
+}
+#banner-text a{
+	color:#fff;
+	line-height:40px;
+	display:block;
+}
+
+

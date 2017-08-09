@@ -1,0 +1,15 @@
+
+
+/**********页面底部*************/
+#footer{
+	padding-top:30px;
+	height:100px;
+	line-height:100px;
+	background:url(../img/index/foot-bj.jpg) no-repeat center top;
+	font-size:12px;
+	text-align:center;
+}
+
+#footer p{
+	color:#666;
+}

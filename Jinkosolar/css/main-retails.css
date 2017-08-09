@@ -1,0 +1,105 @@
+
+/**********轮播广告==绿底部分***********/
+
+#adv-slider{
+	width:100%;
+	height:40px;
+	background:#1DA63C;
+}
+#adv-slider #banner-text{
+	width:1000px;
+	margin:0 auto;
+	padding-left:100px;
+	background:url(../img/index/notice.gif) no-repeat 0 center;
+	line-height:40px;
+	color:#fff;
+	box-sizing:border-box;
+}
+
+
+/**********轮播广告==图片部分***********/
+
+#banner-img{
+	width:1423px;
+	height:600px;
+	margin:0 auto;
+	background:url(../img/index/591e9e494c70f.jpg) no-repeat center 0;
+}
+
+/***********页面主体***************/
+#retails{
+	flex-wrap:wrap;
+}
+#retails>div{
+	display:flex;
+	width:50%;
+	margin-bottom:20px;
+}
+#retails>div>p{
+	width:278px;
+	margin-right:20px;
+
+}
+
+#retails>div>p img{
+	width:100%;
+}
+
+#retails>div div{
+	margin-right:20px;
+	width:209px;
+}
+#retails>div div p{
+	font-size:16px;
+}
+#retails>div div dl{
+	font-size:13px;
+
+}
+#retails dl dt{
+	font-size:22px;
+	color:#1DA63B;
+	margin-bottom:5px;
+}
+#retails dl dd{
+	margin-bottom:5px;
+}
+#retails dl dd i,#retails dl dd b{
+	float:left;
+	margin-right:2px;
+}
+#retails dl dd:nth-child(2) i{
+	display:inline-block;
+	width:20px;
+	height:21px;
+	background:url(../img/index/icon1.gif) no-repeat 0 -21px;
+}
+#retails dl dd:nth-child(3) b{
+	display:inline-block;
+	width:20px;
+	height:21px;
+	background:url(../img/index/icon1.gif) no-repeat 0 -42px;
+	position:relative;
+	top:-1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

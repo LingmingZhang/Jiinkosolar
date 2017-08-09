@@ -1,0 +1,334 @@
+
+/**********轮播广告==图片部分***********/
+.banner-img，#banner-img{
+	width:100%;
+	height:300px;
+	margin:0 auto;
+
+}
+.resource-img{
+	background:url(../img/index/resource.jpg) no-repeat center 0;
+}
+.service-img{
+	background:url(../img/index/service.jpg) no-repeat center 0;
+}
+.contact-img{
+	background:url(../img/index/contact.jpg) no-repeat center 0;
+}
+.resident{
+	background:url(../img/index/project-resident.jpg) no-repeat center 0;
+}
+.utility{
+	background:url(../img/index/project-utility.jpg) no-repeat center 0;
+}
+.commercial {
+	background: url(../img/index/project-commercial.jpg) no-repeat center 0;
+}
+.product-img{
+	background: url(../img/index/product.jpg) no-repeat center 0;
+}
+.company-img{
+	background: url(../img/index/company.jpg) no-repeat center 0;
+}
+
+.press-img{
+	background: url(../img/index/press.jpg) no-repeat center 0;
+}
+
+
+/***********页面主体***************/
+
+#main{
+	font-size:14px;
+}
+.crumbs-nav a:hover{
+	color:#0f9e2f;
+}
+.crumbs-nav a{
+	color:#131212;
+}
+.crumbs-nav a:first-child{
+	padding-left:20px;
+	background:url(../img/index/ny-dizhi-tb.gif) no-repeat 0 center;
+}
+.links{
+	margin-bottom:30px;
+}
+.links a{
+	padding:5px 15px;
+	background:#898989;
+	color:#fff;
+	margin-left:3px;
+	border-radius:3px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	cursor:pointer;
+}
+
+#links-items{
+	width:990px;
+	margin-bottom:50px;
+
+}
+#links-items p{
+	height:290px;
+	padding-top:30px;
+}
+#links-items>div{
+	display:none;
+}
+#links-items>div:target{
+	display:block;
+}
+.items ul{
+	width:40%;
+	margin-top:30px;
+}
+.items ul li{
+	padding:10px;
+	border-bottom:1px solid rgb(167, 169, 172);
+	margin-bottom:5px;
+}
+.items ul li:first-child{
+	border:none;
+	background:rgb(216,218,220);
+	color:#131212;
+}
+.project-aside{
+	margin-left:10%;
+	margin-top:30px;
+	width:50%;
+}
+.project-aside h1{
+	font-weight:normal;
+	line-height:60px;
+}
+.project-aside div{
+	font-size:13px;
+	line-height:22px;
+	padding-bottom:15px;
+}
+ /*人才中心*/
+#resource-table{
+	width:1000px;
+	height:30px;
+	line-height:30px;
+	color:#fff;
+	background:#1DA63B;
+}
+#resource-table td{
+	padding-left:20px;
+}
+#resource-table td:first-child{
+	width:40%;
+}
+#resource-table td:last-child{
+	width:10%;
+}
+
+/*联系我们*/
+#form{
+	line-height:45px;
+}
+#form li span{
+	display: inline-block;
+	width:85px;
+	text-align:right;
+}
+#form input{
+	width:300px;
+	height:30px;
+	border:1px solid #ddd;
+	padding-left:10px;
+}
+#form textarea{
+	border:1px solid #ddd;
+	margin-top:5px;
+}
+#form button{
+	width:129px;
+	height:33px;
+	background:url(../img/index/liuyan-btn.gif);
+	color:#fff;
+	margin-left:85px;
+	border:none;
+	cursor:pointer;
+}
+#office>div{
+	border-bottom:1px dotted #ddd;
+	padding:15px 0;
+	display:flex;
+	flex-wrap:wrap;
+	color:#909090;
+}
+#office h2{
+	font-weight:normal;
+	width:100%;
+	color:#373737;
+}
+#office h3{
+		font-weight:normal;
+		color:#1da63b;
+		line-height:30px;
+	}
+#office div:first-child h2{
+	line-height:80px;
+	padding-bottom:30px;
+}
+#office div ul{
+	width:50%;
+	line-height:25px;
+}
+ /*客户服务*/
+.service{
+	line-height:25px;
+}
+
+
+
+
+
+
+
+        /*项目主页*/
+#project b{
+	display:block;
+	margin-bottom:10px;
+}
+#project div{
+	margin-bottom:10px;
+	line-height:20px;
+}
+#project-bottom dl{
+	width:312px;
+}
+
+	/*产品主页*/
+
+#product dl{
+	width:312px;
+}
+
+
+/*产品==电池片*/
+#links-items h1.normal{
+	padding:25px 0;
+}
+.links-items-left{
+	width:40%;
+}
+.links-items-right{
+	border-top:1px solid #ddd;
+	padding-top:20px;
+	flex-grow:1;
+}
+.attribute{
+	flex-grow:1;
+}
+.attribute li {
+	color:#676767;
+	padding-left:24px;
+	background:url(../img/index/duigou-icon.gif) no-repeat 0 center;
+	margin-bottom:20px;
+}
+
+/*产品==组件*/
+div.module{
+	margin-top:40px;
+}
+div.module h1{
+	color:#1da738;
+	margin-bottom:30px;
+}
+div.module p,#links-items .module p{
+	color:#676767;
+	padding-left:24px;
+	background:url(../img/index/duigou-icon.gif) no-repeat 0 center;
+	margin-bottom:20px;
+}
+
+/*产品==支架*/
+.links-items-right table{
+	width:100%;
+	border:none;
+	background:#f5f5f5;
+	padding:10px;
+	color:#676767;
+	margin-top:20px;
+}
+.links-items-right td:first-child{
+	width:200px;
+	line-height:30px;
+}
+
+/*公司==关于我们*/
+
+.content-left>div{
+	line-height:25px;
+	margin-top:20px;
+	color:#626262;
+}
+.content-left h3{
+	color:#131212;
+}
+.about{
+	justify-content:space-between;
+	margin-top:30px;
+	background:#f6f6f6;
+	padding:20px;
+}
+/*公司==愿景和使命*/
+
+.content-right{
+	flex-grow:1;
+
+
+}
+.visin {
+	background:url(../img/index/Visin%20and%20Misson.jpg) no-repeat;
+	height:350px;
+}
+/*公司==文化*/
+.culture{
+	background:url(../img/index/Culture%20&%20Value.jpg) no-repeat;
+	background-size:contain;
+	height:250px;
+}
+ul.faith>li>h3{
+	line-height:50px;
+	color:#131212;
+}
+ul.faith>li>div{
+	line-height:25px;
+}
+
+/*新闻*/
+.press p{
+	margin-top:20px;
+	line-height:25px;
+}
+.press p,.press div{
+	text-indent:24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

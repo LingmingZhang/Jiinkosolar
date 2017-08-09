@@ -1,0 +1,129 @@
+/*通用样式*/
+body{
+	font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+	margin:0;
+	color:#666;
+}
+h1,h2,h3,h4,h5,h6,p,ul,dl,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+img{
+	vertical-align:middle;
+}
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#1da738;
+}
+
+input{
+	padding:0;
+	border:0;
+	outline:none;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+
+.flex{
+	display:flex;
+
+}
+.flex-justify{
+	display:flex;
+	justify-content:space-between;
+}
+.content-left{
+	width:50%;
+}
+.content-right{
+	width:40%;
+}
+.green{
+	color:#1da63b;
+}
+
+.links .click{
+	background-color:#1da738;
+}
+#links-items .block{
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.normal{
+	font-weight:normal;
+	color:#131212;
+}
+
+.down-20{
+	margin-bottom:20px;
+}
+.down-30{
+	margin-bottom:30px;
+}
+.down-40{
+	margin-bottom:40px;
+}
+.down-50{
+	margin-bottom:50px;
+}
+.down-100{
+	margin-bottom:100px;
+}
+.mleft30{
+	margin-left:30px;
+}
+
+dl dt,dl dd{
+	margin-bottom:10px;
+}
+dt img:hover{
+	box-shadow:0 0 6px #330;
+}
+.dl-horizontal dl dd:nth-child(3){
+	min-height:60px;
+}
+.dl-horizontal dl a{
+	color:#0f9e2f;
+}
+.dl-horizontal dl a:hover{
+	text-decoration:underline;
+}
+
+.position{
+	position:relative;
+}
+
+
+
+
+
+
+
+/**********整体布局样式*************/
+#header,#nav,#main,#footer{
+	width:1000px;
+	margin:20px auto;
+}
+
+#adv-slider{
+	overflow:hidden;
+}
+#banner-text-container,#banner-text{
+	height:40px;
+}
